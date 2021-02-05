@@ -1,0 +1,11 @@
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input[type="text"]:focus,
+[type="text"].form-control:focus,
+[contenteditable].form-control:focus,
+button:focus {
+  box-shadow: none;
+  outline: none;
+  border: 1px solid #b2d1cd;
+}

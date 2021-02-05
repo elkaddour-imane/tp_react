@@ -1,0 +1,97 @@
+body{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: vertical-align;
+  background-color: rgb(245, 244, 244);
+}
+.post{
+  width:70vh;
+  background-color: white;
+  height: 100px auto;
+  border:1px solid rgba(168, 168, 168,0.5);
+  margin: 8px;
+  display: grid;
+  align-items: vertical-align;
+  padding-left: 9px;
+}
+.post .content{width:98%;padding: 7px;}
+.post .content h4{
+  margin:0;
+  padding: 0;
+  margin-left: 11px;
+  margin-top: 8px;
+}
+.post .content div{
+    margin: 4px;
+}
+.post .content .text{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 11px;
+
+}
+ .actions a {
+  margin-right:15px;
+  text-decoration: none;
+}
+  .comments_body .comment_{
+  width: 90%;
+  margin: 5px;
+  padding: 7px;
+  background-color: rgb(241, 241, 241);
+  border: 0.2px solid rgba(133, 131, 131,0.5);
+}
+.comments_body .comment_ .actions a {
+  margin-right:15px;
+  background-color: rgb(233, 233, 233);
+}
+.no_comment{
+  text-align: center;
+  background-color: rgb(241, 241, 241);
+  width:95%;
+  border: 0.2px solid rgba(133, 131, 131,0.5);
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.comments_body .comment_ h4{
+  margin:0;
+  padding: 0;
+  margin-left: 8px;
+  margin-top: 0.1px;
+}
+.comments_container{
+  overflow-y: auto;
+}
+.post .comments_body{
+  display: flex;
+  align-items: vertical-align;
+
+}
+.inputs {border:2px solid rgba(133, 131, 131,0.5);
+      outline: none;
+      padding: 2px;
+      width:89%;
+      margin: 9px; }
+.submit_btn{margin-left: 60%;
+            padding:5px 25px 5px 25px;
+            border:none;
+            background:linear-gradient(187deg, rgb(108, 146, 235) 0%, rgb(56, 106, 224) 35%, rgb(0, 110, 255) 100%);
+            color:white;
+            border-radius: 4px;
+          }  
+.submit_btn:hover{cursor: pointer}
+.form{
+  width:97%;
+  margin: auto;
+  background-color:white;
+  padding: 2px;
+  padding-bottom: 8px;
+  margin-top:5px;
+  margin-bottom: 5px;
+  border: 0.2px solid rgba(133, 131, 131,0.5);
+} 
+.like fill{
+  background-color: green;
+}       
+.delete{float:right;color:red;margin-right: 15px;}     

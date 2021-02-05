@@ -1,0 +1,14 @@
+.navbar{
+    display:flex;width:100%;background-color:rgb(230,230,230);justify-content:space-between;}
+    .links{display:flex;margin:auto;}
+    .links li{display:inline-block;width:90%;padding-right:50px;height:50px;background-color:rgb(228,228,228);}
+    .links li .link {margin-left:15px;margin-top:15px;text-decoration:none;text-align: center;
+    font-weight:bold;
+    }
+    .links .active{
+    background-color:rgb(199,199,199)
+    }
+    .links li:hover{
+    cursor:pointer;
+    background-color:rgb(133, 133, 133);
+    }
